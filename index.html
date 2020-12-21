@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT Worker | responsive portfolio template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Full Stack Developer</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Nayanika Bhargava</h1>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello, hola, नमस्ते !</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">I grind HTML CSS and JavaScript and then weld them with React and PostgreSQL into beautiful and efficient websites.</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>A hard working and passionate <strong>full stack developer</strong> willing to serve the community using her technical skills and work to the best of her abilities to develop an amazing product with team collaboration and achieve client satisfaction</p>
+            <p>I am currently working with Research Foundation for the State University of New York. Our current clients are all state and federal government organizations. <strong> Currently working with technologies such as React-redux, NodeJs, Python for researching and analyzing data, POSTGRESQL for data management,Falcor REST API,Jest for testing and MapboxJs, NivoJs for data visualizations.</strong> </p>
+            <p>I am also working on enhancing my skills regarding the following topics <strong>Microservices-Docker and Kubernetes,Redis, CI/CD using Travis CI and frontend development using Angular framework</strong> I am always willing to work on my skills and adapt myself according to the organization`s needs. <a href="#contact">Let`s develop something spectacular together</a></p>
+            <p>I am also intrigued about the concepts of data science and how technical python skills can play a huge role in the field of bio informatics and would like to learn more</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">React and Redux</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML and CSS coding</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">PostgreSQL</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Python</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">MapboxJS, NivoJS and GIS</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">MicroServices, Github, CI/CD, Testing</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-sm-4 mx-auto mt-5"><img src="img/about.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Services</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-search"></i></div>
+            <h3 class="heading mb-3 text-400">Consulting & Development</h3>
+            <p class="text-left description">My highest priority is fast load times and free interaction along with making it responsive intuitive for easy understanding and use and dynamic. I love making pages come to life and solve complex problems. I also like to research about the datasets I am given to work on and provide insights about how then can be visualized best.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-html5"></i></div>
+            <h3 class="heading mb-3 text-400">Front end development</h3>
+            <p class="text-left description">I work with React-redux, HTML, CSS and data visualization libraries such as MapBoxJS and NivoJS to make beautiful interactive easy to use pages. I am currently working on an Angular wb development course to further enhance my skills on front end development</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">Back end development</h3>
+            <p class="text-left description">I work with NodeJs, Express, FALCOR REST API, POSTGRESQL and GIS to handle the backend development. I am also learning about how to handle microservices with docker, kubernetes redis and MONGODB in order to develop a strong structure for the web apps and avoid production bugs and issues</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials-->
+    <!--<section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">My customers said<br><span>about me</span></h2>
+          <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What is happened to me? &quot; he thought. It was not a dream.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-3.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>-->
+    <!-- Statistics-->
+    <!--<section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-align-justify"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">120</span><br>Websites</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">50</span><br>Satisfied Clients</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-copy"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">320</span><br>Projects</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-font"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">333</span><br>Magazines and Brochures</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section>-->
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>
+            <p data-animate="fadeInUp" class="lead">Here are the projects I have worked on</p>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="webdesign">ReactJS/NodeJS/Javascript</a></li>
+            <li><a href="#" data-filter="microservices">Microservices Learning</a></li>
+            <li><a href="#" data-filter="angular">Angular Learning</a></li>
+            <li><a href="#" data-filter="other">College Projects</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-1.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Local Hazard Mitigation Planning</h3>
+                            <p>New York State division of Homeland Security & Emergency Services</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>As the severity and frequency of natural disasters increase, so does the devastation and exorbitant cost of recovery left in their wake. In recent years, national focus has taken a dramatic shift towards mitigation – sustained actions that reduce the loss of life and property by lessening the impact of disasters. New York State recognizes that the time to act is before disaster strikes. Current research shows that for every $1 spent on mitigation, an average $6 is saved. However, since the largest amount of federal mitigation dollars becomes available following a declared disaster, resulting actions taken are inevitably reactive instead of proactive. In New York, we believe that the solution to this is to devote greater resources to mitigation planning – both at the state and local level. How we learn and interact with information is constantly evolving. Static, narrative heavy planning documents no longer serve to efficiently inform decision making. The contents within Mitigate NY transition the model of planning to one that maintains up-to-date risk data that is digestible and accessible to all. This kind of partnership – one that encourages an interdisciplinary approach to research, data, and practice – can be sustained and enriched indefinitely. Engaging students, academics and practitioners simultaneously with locals, government representatives and policy-makers fosters a collaborative foundation for implementation of hazard mitigation.</p>
+                        <p>My role in this project is to develop and design various functionalities along with my other team members. I maintain the frontend and backend of this website and perform research regarding the data sets used for the website</p>
+                        <p class="buttons text-center"><a href="https://sullivan.mitigateny.org/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">FEMA-CTP</h3>
+                            <p>Federal Emergency Management Agency`s Coorperating Technical Partners(CTP)</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider3.jpg,img/main-slider1.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="https://www.hazarddata.org/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">PIRE</h3>
+                            <p>A National Science Foundation Project</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-4.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Community Indicators Project</h3>
+                            <p>A regional project to study about the community based on various factors</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+              <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Emaily</h3>
+                      <p>An app to collect feedback from users with google oAuth</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p>Backend using typescript and Node.js, frontend using Next.js for server side rendering deployment and production using Docker and Kubernetes</p>
+                    <p class="buttons text-center"><a href="" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/Ticketing" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                  </div>
+                </div>
+              </div>
+                  <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-5.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Password generator</h3>
+                            <p>A small web app for password generation based on Angular/Typescript</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="https://pw-l94qtd9g3.vercel.app/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/Password-Generator" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-6.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Typing game</h3>
+                            <p>A small webapp to demonstrate correct typing of a random phrase</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="https://typing-olive.vercel.app/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/typing-game" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-7.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Pages</h3>
+                            <p>A small webapp demonstrating use of directives in Angular and create custom directives.</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="https://pages-beta-five.vercel.app/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/pages" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Components</h3>
+                            <p>Developed using Angular and Typescript to show the usage of modules and components</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="https://comps-taupe.vercel.app/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/comps" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                      <div class="overlay">
+                        <div class="inner">
+                          <h3 class="h4 reference-title">Web Search</h3>
+                          <p>Developed using Angular and Typescript similar to wikipedia</p>
+                        </div>
+                      </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="https://wsearch-sable.vercel.app/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/wsearch" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+              <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Email Application</h3>
+                      <p>Developed using Angular and Typescript and RxJS</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                    <p class="buttons text-center"><a href="" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/email-client" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="angular" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Credit Card form</h3>
+                      <p>A dynamic Credit card form using AngularJS and Typescript</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                    <p class="buttons text-center"><a href="https://creditcard-two.vercel.app/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/credit-card-form" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="microservices" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Ticketing</h3>
+                      <p>An ongoing microservices project</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p>Backend using typescript and Node.js, frontend using Next.js for server side rendering deployment and production using Docker and Kubernetes</p>
+                    <p class="buttons text-center"><a href="" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/nayanika2304/Ticketing" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="microservices" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title"></h3>
+                      <p>Multiple projects for learning Microservices with docker and kubernetes</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p></p>
+                    <p class="buttons text-center"><a href="https://github.com/nayanika2304/multi-k8s" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a><a href="https://github.com/nayanika2304/multi-docker" class="btn btn-outline-primary"><i class="fa fa-globe"></i>Github Repository</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Twitter Based Crime Rate Analysis</h3>
+                      <p>Python based project for mining twitter data</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p></p>
+                    <p class="buttons text-center"><a href="img/customers/CSI531_Nayanika%20Bhargava_Project%20Report.pdf" class="btn btn-outline-primary" download="twitter_analysis"><i class="fa fa-globe"></i>Download the pdf</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Wireless Networks for Agriculture</h3>
+                      <p>Using WhatsApp to learn Farm operations and Provision Network Resources</p>
+                    </div>
+                  </div></a>
+                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                    <p></p>
+                    <p class="buttons text-center"><a href="img/customers/CSI525_Final%20Report_NB_SS.pdf" class="btn btn-outline-primary" download="wireless_analysis"><i class="fa fa-globe"></i>Download the pdf</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customers-->
+    <section id="customers" class="customers-section bg-gray">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-1.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-2.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-3.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-4.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-5.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-6.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="mailto:nayanikabhargava1993@gmail.com">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Your firstname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="surname" placeholder="Your lastname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="phone" placeholder="Your phone" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea id="message" name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center" id="submitMail">
+                    <button type="submit" class="btn btn-outline-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+    <div id="map"></div>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2018 Nayanika Bhargava All rights reserved.</p>
+          </div>
+          <div class="col-12 mt-4">
+            <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
