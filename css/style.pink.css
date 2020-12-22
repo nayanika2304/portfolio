@@ -363,7 +363,17 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 .full-height {
   height: 100% !important;
 }
-
+/*
+*
+* =====================
+* CONTACT
+* =====================
+*
+*/
+.contact-section .icon {
+  font-size: 3.5rem;
+  text-shadow: 5px 5px 0 #eb2364;
+}
 /*
 *
 * =====================
